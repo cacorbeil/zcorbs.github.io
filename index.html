@@ -11,18 +11,19 @@
 	body { font-family: 'Courier New', monospace; }
 	.container { height: 200px; position: relative; }
 	.vertical-center { margin: 0; position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
-	.vertical-top { margin: 0; position: absolute; top: 30%; left: 50%; -ms-transform: translate(-50%, -80%); transform: translate(-50%, -80%); }
+	.vertical-top { margin: 0; position: absolute; top: 50%; left: 50%; -ms-transform: translate(-50%, -50%); transform: translate(-50%, -50%); }
 	a { text-decoration: none; font-weight: 600; color:#000000 }
 	a:hover { font-weight: 300; }
-	.logo { max-height: 100%; top: 10%; left: 50%; margin: auto; display: block; }
+	.logo { height: 200px; }
   </style>
 </head>
 <body>
-	
 	<div class="container">
-		<a href="https://twitter.com/zcorbs">
-			<img class="logo" src="zcorbs_logo.png" alt="zcorbs" />
-		</a>
+		<div class="vertical-top">
+			<a href="https://twitter.com/zcorbs">
+				<img class="logo" src="zcorbs_logo.png" alt="zcorbs" />
+			</a>
+		</div>
 	</div>
 	<div class="vertical-center">
 		<p>soon...</p>
